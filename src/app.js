@@ -30,9 +30,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Exécuter la requête
+    // Exécute la requête
     getWordleUrl().then(url => {
         console.log('URL à utiliser:', url);
-        // Vous pouvez utiliser l'URL ici pour la suite
     });
 });
